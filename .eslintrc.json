@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-plusplus": "off",
+    "no-use-before-define": "off",
+    "no-return-assign": "off"
+  },
+  "ignorePatterns": ["**/*.test.js"]
+}
